@@ -1,0 +1,141 @@
+/******BASE STYLES*****/
+
+
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    color: #000000;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+/*****HEADER*****/
+
+header {
+    height: 90px;
+    padding-top: 20px;
+    text-transform: uppercase;
+}
+
+header h1 {
+    padding-bottom: 30px;
+    float: left;
+    font-size: 30px;
+}
+
+header h1 span {
+    color: #719f60;
+}
+
+nav {
+    float: right;
+    padding-top: 15px;
+    padding-bottom: 30px;
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #719f60;
+    font-size: 14px;
+    font-weight: bold;
+    padding-left: 25px;
+}
+
+/*****INTRO*****/
+
+.top-section {
+    height: 460px;
+    padding-bottom: 20px;
+}
+
+.main-image img {
+    border-top: 3px solid #719f60;
+    border-bottom: 3px solid #719f60;
+}
+
+.main-title h3 {
+    color: #719f60;
+    text-transform: uppercase;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.main-title p {
+    line-height: 25px;
+}
+
+/*****ABOUT*****/
+
+.bottom-section {
+    height: 210px;
+    border-top: 1px solid #dedbdc;
+    border-bottom: 3px solid #dedbdc;
+    padding-top: 10px;
+}
+
+.bottom-section h4 {
+    text-transform: uppercase;
+    font-size: 11px;
+    padding-bottom: 5px;
+
+}
+
+.menu .reviews .address {
+    text-align: left;
+    font-size: 15px;
+}
+
+.section-one {
+    width: 350px;
+    float: left;
+}
+
+.section-one ul {
+    list-style: none;
+    padding-left: 0px;
+    color: #719f60;
+    line-height: 40px;
+}
+
+.section-two {
+    width: 350px;
+    float: left;
+    line-height: 20px;
+    text-align: left;
+    padding-right: 20px;
+    padding-left: 20px;
+    border-left: 1px solid #dedbdc;
+    border-right: 1px solid #dedbdc;
+}
+
+.section-three {
+    width: 350px;
+    float: left;
+    padding-left: 20px;
+    line-height: 25px;
+}
+
+/*****FOOTER*****/
+
+footer {
+    height: 40px;
+}
+
+footer h4 {
+    text-transform: uppercase;
+    font-size: 13px;
+    text-align: center;
+}
+
+footer span {
+    font-family: 'font112379';
+    text-transform: none;
+    color: #719f60;
+}
